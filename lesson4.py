@@ -1,4 +1,6 @@
 # mathematics operations.
+import csv
+
 import torch
 import numpy as np
 my_device = torch.device("mps")
@@ -43,5 +45,3 @@ print(tensor_a)
 # a = a + tensor_a
 # print(a)
 # print(b)
-
-
